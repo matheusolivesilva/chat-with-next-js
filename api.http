@@ -1,0 +1,10 @@
+### Create Chat Messages
+POST http://localhost:3000/api/chats
+Content-Type: application/json
+
+{
+  "message": "I'm fine, what about you?"
+}
+
+### List Chat Messages
+GET http://localhost:3000/api/chats
